@@ -1,0 +1,14 @@
+
+path: /content/drive/MyDrive/yolov5/data/emotion_data
+train: train/images  
+val: test/images   
+test: test/images
+
+
+names:
+  0: happy
+  1: sad
+  2: neutral
+  3: surprise
+  4: angry
+  
