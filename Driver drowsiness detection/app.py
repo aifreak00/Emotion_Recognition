@@ -19,7 +19,7 @@ def play_sound_thread():
 
 def openCV():
     model = torch.hub.load('ultralytics/yolov5', 'custom',
-                           path='C://Users//ASUS//yolov5//last.pt',
+                           path='C://Users//ASUS//yolov5//best.pt',
                            force_reload=True)
     cap = cv2.VideoCapture(0)
     while cap.isOpened():
